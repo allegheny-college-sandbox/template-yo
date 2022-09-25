@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Introduce the Arborist!
+    steps:
+      - name: Arborist
+        id: arborist
+        uses: term-world/arborist@v0.1
