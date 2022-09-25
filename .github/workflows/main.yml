@@ -8,3 +8,5 @@ jobs:
       - name: Arborist
         id: arborist
         uses: term-world/arborist@v0.3
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
