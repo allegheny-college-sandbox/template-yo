@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Arborist
         id: arborist
-        uses: term-world/arborist@v0.1
+        uses: term-world/arborist@v0.2
