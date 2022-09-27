@@ -2,6 +2,7 @@ on: [push]
 
 permissions:
   contents: read
+  repository-projects: write
 
 jobs:
   hello_world_job:
@@ -10,6 +11,6 @@ jobs:
     steps:
       - name: Arborist
         id: arborist
-        uses: term-world/arborist@v0.49.5
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: term-world/arborist@v0.49.6
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
