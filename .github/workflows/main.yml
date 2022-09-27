@@ -1,11 +1,7 @@
 on: [push]
 
-permissions:
-  contents: read
-  repository-projects: write
-
 jobs:
-  hello_world_job:
+  hello_arborist:
     runs-on: ubuntu-latest
     name: Introduce the Arborist!
     steps:
