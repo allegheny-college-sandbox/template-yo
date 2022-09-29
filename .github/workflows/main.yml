@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Arborist
         id: arborist
-        uses: term-world/arborist@v0.50.5
+        uses: term-world/arborist@v0.51.0
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
