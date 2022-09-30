@@ -1,5 +1,7 @@
 on: [push]
 
+permissions: write-all
+
 jobs:
   hello_arborist:
     runs-on: ubuntu-latest
