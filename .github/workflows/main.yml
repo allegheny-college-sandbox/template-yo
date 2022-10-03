@@ -11,4 +11,4 @@ jobs:
         id: arborist
         uses: term-world/arborist@test
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.ARBORIST }}
