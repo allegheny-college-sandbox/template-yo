@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Introduce the Arborist!
     steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Arborist
         id: arborist
         uses: term-world/arborist@test
